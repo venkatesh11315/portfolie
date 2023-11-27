@@ -1,0 +1,296 @@
+.nav-link{
+    font-size: 1.7rem;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 3rem;
+} 
+.navbar-brand{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+
+
+}
+.navbar-toggler{
+    background-color: #E3274C;
+}
+/* home page */
+#home{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #16151A;
+}
+.heading{
+    margin-left: 3.1rem;
+    padding-top: 3rem;
+    font-size:3rem;
+}
+.heading2{
+    margin-left: 50px;
+    font-size: 5vw;
+    color: #E3274C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+}
+.paragraph{
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #16151A;
+    font-weight: bold;
+}
+/* btn */
+.btn-warning{
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* about */
+#about{
+    background-color: #16151A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-top: 20px;
+
+}
+.aboutheading{
+    padding-top: 10px;
+    color: #E3274C;
+    text-align: center;
+}
+.aboutp{
+    color: whitesmoke;
+   margin-top: 40px;
+   font-size:30px ;
+}
+/* skills */
+#skills{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.headingskills{
+    color: #E3274C;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.skillh2{
+    color: #E3274C;
+}
+.progress-bar{
+    box-shadow:inset;
+}
+/* img4 */
+#img4{
+
+    box-shadow: 10px 10px 5px 12px gold;
+}
+   
+
+/* icons */
+.icheading{
+    color: #E3274C;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    
+}
+.contact{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+   
+    
+   display: inline-block;
+}
+/* .paragraph2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+} */
+/* .textstyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+} */
+.textheadings{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #16151A;
+    font-weight: bolder;
+}
+.card-body{
+    background-color: #E3274C;
+    box-shadow: #E3274C;
+    
+}
+.card{
+    border-radius: 4px;
+    border-color: #E3274C;
+}
+
+/* btn-hover zoom in  */
+.btn-zoomin {
+    transition: transform 0.3s ease-in-out;
+}
+.btn-zoomin:hover{
+    transform: scale(1.1); /* Adjust the scale factor for the zoom-out effect */
+}
+/* html-btn */
+.btn-custome:hover{
+   
+    background-color: #df0707;
+}
+.btn-custome{
+    color: #df0707;
+}
+
+  /* css btn */
+  .btn-css:hover{
+    background-color: #165ad0;
+
+  }
+  .btn-css{
+    color: #165ad0;
+  }
+
+/* bootstrap btn */
+.btn-bostrap{
+    color:  #563d7c;
+}
+.btn-bostrap:hover{
+    background-color: #563d7c;
+}
+/* javascript btn*/
+.btn-javascript{
+    color:  #e2db1d;
+
+}
+.btn-javascript:hover{
+    background-color: #e2db1d;
+}
+/* react-btn */
+.btn-react{
+    color:  #087ea4;
+}
+.btn-react:hover{
+    background-color: #087ea4;
+}
+/* mongo */
+.btn-mongo{
+    color: #4da43f;
+}
+.btn-mongo:hover{
+    background-color: #4da43f;
+}
+
+/* btn-node */
+.btn-node{
+    color:  #76ac64;;
+}
+.btn-node:hover{
+    background-color: #76ac64;
+}
+/* material ui */
+
+.btn-material-ui{
+  color:  #2e68cc;
+}
+.btn-material-ui:hover{
+    background-color: #2e68cc;
+}
+/* footert */
+/* shake csss */
+.icon-container {
+    position: relative;
+  }
+  
+  #shakingIcon {
+    font-size: 48px;
+    color: #FFD700; /* Gold color for the star icon */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #shakingIcon.shake {
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 40%, 60%, 80% { transform: translateX(-5px); }
+    30%, 50%, 70% { transform: translateX(5px); }
+  }
+  /* card */
+  .card {
+    width: 350px;
+    height: 210px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgb(255, 254, 254);
+  }
+
+  /* button glow */
+  .glow-on-hover {
+    width: 240px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background:  #16151A;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+  
